@@ -22,6 +22,8 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          hover: "hsl(var(--primary-hover))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -46,6 +48,21 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+          hover: "hsl(var(--card-hover))",
+        },
+        medical: {
+          imaging: "hsl(var(--imaging))",
+          "imaging-bg": "hsl(var(--imaging-bg))",
+          laboratory: "hsl(var(--laboratory))",
+          "laboratory-bg": "hsl(var(--laboratory-bg))",
+          cardiology: "hsl(var(--cardiology))",
+          "cardiology-bg": "hsl(var(--cardiology-bg))",
+          consultation: "hsl(var(--consultation))",
+          "consultation-bg": "hsl(var(--consultation-bg))",
+          general: "hsl(var(--general))",
+          "general-bg": "hsl(var(--general-bg))",
+          vitals: "hsl(var(--vitals))",
+          "vitals-bg": "hsl(var(--vitals-bg))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
@@ -57,6 +74,17 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-mesh': 'var(--gradient-mesh)',
+        'gradient-card': 'var(--gradient-card)',
+      },
+      boxShadow: {
+        'sm': 'var(--shadow-sm)',
+        'md': 'var(--shadow-md)',
+        'lg': 'var(--shadow-lg)',
+        'glow': 'var(--shadow-glow)',
       },
       borderRadius: {
         lg: "var(--radius)",

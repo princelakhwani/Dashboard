@@ -1,0 +1,143 @@
+{
+  "patient": {
+    "id": "1",
+    "name": "Alice Williams",
+    "age": 32,
+    "gender": "Female",
+    "avatar": "/api/placeholder/100/100",
+    "dateOfBirth": "1991-03-15",
+    "bloodType": "O+",
+    "height": "165 cm",
+    "weight": "62 kg",
+    "allergies": ["Penicillin", "Peanuts"],
+    "emergencyContact": "+1 (555) 123-4567"
+  },
+  "reports": [
+    {
+      "id": "r1",
+      "title": "MRI Results",
+      "category": "imaging",
+      "department": "Imaging",
+      "doctor": "Dr. King",
+      "date": "2024-01-15",
+      "status": "completed",
+      "priority": "normal",
+      "bodyPart": "brain",
+      "summary": "Brain MRI scan showing normal results with no abnormalities detected."
+    },
+    {
+      "id": "r2",
+      "title": "Lab Test",
+      "category": "laboratory",
+      "department": "Laboratory",
+      "doctor": "Dr. Smith",
+      "date": "2024-01-14",
+      "status": "completed",
+      "priority": "high",
+      "bodyPart": "general",
+      "summary": "Complete blood count and metabolic panel within normal ranges."
+    },
+    {
+      "id": "r3",
+      "title": "ECG Report",
+      "category": "cardiology",
+      "department": "Cardiology",
+      "doctor": "Dr. Johnson",
+      "date": "2024-01-13",
+      "status": "completed",
+      "priority": "urgent",
+      "bodyPart": "heart",
+      "summary": "Normal sinus rhythm, no arrhythmias detected."
+    },
+    {
+      "id": "r4",
+      "title": "Medical History",
+      "category": "consultation",
+      "department": "Consultation",
+      "doctor": "Dr. Adams",
+      "date": "2024-01-10",
+      "status": "completed",
+      "priority": "normal",
+      "bodyPart": "general",
+      "summary": "Comprehensive medical history review and consultation."
+    },
+    {
+      "id": "r5",
+      "title": "Patient Info",
+      "category": "general",
+      "department": "General",
+      "doctor": "Dr. Brown",
+      "date": "2024-01-09",
+      "status": "active",
+      "priority": "low",
+      "bodyPart": "general",
+      "summary": "Updated patient demographic and insurance information."
+    },
+    {
+      "id": "r6",
+      "title": "Blood Pressure",
+      "category": "vitals",
+      "department": "Vital Signs",
+      "doctor": "Dr. Lee",
+      "date": "2024-01-16",
+      "status": "monitoring",
+      "priority": "normal",
+      "bodyPart": "heart",
+      "summary": "Regular blood pressure monitoring: 120/80 mmHg."
+    },
+    {
+      "id": "r7",
+      "title": "X-Ray Results",
+      "category": "imaging",
+      "department": "Imaging",
+      "doctor": "Dr. Martinez",
+      "date": "2024-01-12",
+      "status": "completed",
+      "priority": "normal",
+      "bodyPart": "chest",
+      "summary": "Chest X-ray showing clear lung fields."
+    },
+    {
+      "id": "r8",
+      "title": "Vaccination Record",
+      "category": "general",
+      "department": "General",
+      "doctor": "Dr. Wilson",
+      "date": "2024-01-08",
+      "status": "completed",
+      "priority": "low",
+      "bodyPart": "general",
+      "summary": "Up-to-date vaccination records including flu and COVID-19."
+    },
+    {
+      "id": "r9",
+      "title": "Diabetes Panel",
+      "category": "laboratory",
+      "department": "Laboratory",
+      "doctor": "Dr. Garcia",
+      "date": "2024-01-11",
+      "status": "completed",
+      "priority": "high",
+      "bodyPart": "general",
+      "summary": "HbA1c levels within normal range at 5.4%."
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt1",
+      "title": "Health checkup complete",
+      "doctor": "Dr. King",
+      "date": "2024-01-25",
+      "time": "11:00 AM",
+      "type": "checkup"
+    },
+    {
+      "id": "apt2",
+      "title": "Ophthalmologist",
+      "doctor": "Dr. Roberts",
+      "date": "2024-01-26",
+      "time": "14:00 PM",
+      "type": "specialist"
+    }
+  ]
+}
