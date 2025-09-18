@@ -1,16 +1,16 @@
 {
   "patient": {
     "id": "1",
-    "name": "Alice Williams",
-    "age": 32,
-    "gender": "Female",
+    "name": "Prince Lakhwani",
+    "age": 20,
+    "gender": "Male",
     "avatar": "/api/placeholder/100/100",
     "dateOfBirth": "1991-03-15",
     "bloodType": "O+",
-    "height": "165 cm",
-    "weight": "62 kg",
+    "height": "181 cm",
+    "weight": "75 kg",
     "allergies": ["Penicillin", "Peanuts"],
-    "emergencyContact": "+1 (555) 123-4567"
+    "emergencyContact": "+91XXXXXXXXXX"
   },
   "reports": [
     {
